@@ -55,10 +55,7 @@ body {
   width: min(980px, 100%);
   margin: 0 auto;
   padding: 1.25rem 1rem 2rem;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 0.2rem;
-  align-items: end;
+  display: block;
   flex: 1;
 }
 
@@ -109,8 +106,8 @@ body {
 }
 
 .next-button {
-  align-self: end;
-  justify-self: end;
+  display: block;
+  margin: 0.35rem 0 0 auto;
   width: 56px;
   height: 56px;
   border: 0;
@@ -150,14 +147,11 @@ body {
 
 @media (max-width: 720px) {
   .app-main {
-    grid-template-columns: 1fr;
-    gap: 0.25rem;
     padding: 0.8rem 0.85rem 1rem;
   }
 
   .next-button {
-    justify-self: end;
-    margin-top: 0.2rem;
+    margin-top: 0.25rem;
   }
 
   .media-shell {
