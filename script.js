@@ -47,7 +47,12 @@ const MEDIA_FILES = [
   "media-047.jpeg",
   "media-048.mov",
   "media-049.mov",
-  "media-050.jpg"
+  "media-050.jpg",
+  "media-051.jpg",
+  "media-052.jpg",
+  "media-053.jpg",
+  "media-054.jpg",
+  "media-055.jpg"
 ];
 
 const IMAGE_EXTENSIONS = [".jpg", ".jpeg", ".png", ".webp", ".gif"];
