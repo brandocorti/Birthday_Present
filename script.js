@@ -1,5 +1,4 @@
 const MEDIA_FILES = [
-  "media-001.jpeg",
   "media-002.jpg",
   "media-003.mp4",
   "media-004.jpg",
@@ -91,6 +90,11 @@ function renderMedia(fileName) {
     img.src = path;
     img.alt = "Foto di auguri";
     img.loading = "eager";
+    // Se un file non esiste o non e decodificabile, passa al prossimo media.
+    img.onerror = () => {
+      const fallback = getRandomItem(MEDIA_FILES, fileName);
+      if (fallback) renderMedia(fallback);
+    };
     mediaContainer.appendChild(img);
     return;
   }
@@ -103,6 +107,10 @@ function renderMedia(fileName) {
     video.muted = true;
     video.loop = true;
     video.playsInline = true;
+    video.onerror = () => {
+      const fallback = getRandomItem(MEDIA_FILES, fileName);
+      if (fallback) renderMedia(fallback);
+    };
     mediaContainer.appendChild(video);
     return;
   }
