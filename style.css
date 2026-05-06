@@ -65,7 +65,7 @@ body {
 
 .media-shell {
   width: 100%;
-  min-height: clamp(320px, 60vh, 700px);
+  min-height: clamp(340px, 68vh, 860px);
   border: 2px solid var(--border-light);
   border-radius: 16px;
   overflow: hidden;
@@ -78,7 +78,7 @@ body {
 .media-shell img,
 .media-shell video {
   width: 100%;
-  height: clamp(320px, 60vh, 700px);
+  height: clamp(340px, 68vh, 860px);
   object-fit: cover;
   display: block;
 }
@@ -157,6 +157,6 @@ body {
 
   .media-shell img,
   .media-shell video {
-    height: clamp(300px, 56vh, 560px);
+    height: clamp(320px, 58vh, 600px);
   }
 }

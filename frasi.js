@@ -1,6 +1,6 @@
 // Elenco frasi personalizzabili.
 window.FRASES = [
-  "Voglio vedere te come arrivi alla mia età poi",
+  "Voglio vedere come arrivi te alla mia età poi",
   "Il casco del maestro di sci deve essere BIANCO",
   "Ma ce t' pinz ca so' d' la montagna?",
   "La fess d' mammt", 
@@ -9,8 +9,8 @@ window.FRASES = [
   "I' so Francesco Nardò!",
   "Frenci cosi No chance eh",
   "Non c'è problema agente, la musica è alta? spegniamo subito",
-  "Che la fortuna ti segua in ogni progetto che inizi.",
-  "Buon compleanno: sogna in grande e divertiti ancora di piu.",
-  "Le persone speciali rendono speciali anche i giorni normali.",
-  "Un brindisi alla tua felicita, oggi e sempre."
+  "Avada kemmamt'",
+  "Auguri a chi ci stipendiaaa, ti vogliamo bene <3",
+  "Telemarkkkkkkk",
+  ""
 ];
