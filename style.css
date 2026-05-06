@@ -155,12 +155,12 @@ body {
   }
 
   .media-shell {
-    min-height: clamp(200px, 38vh, 320px);
+    min-height: clamp(220px, 42vh, 360px);
   }
 
   .media-shell img,
   .media-shell video {
-    height: clamp(200px, 38vh, 320px);
+    height: clamp(220px, 42vh, 360px);
   }
 
   .phrase-block {
