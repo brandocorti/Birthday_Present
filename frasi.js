@@ -1,7 +1,6 @@
 // Elenco frasi personalizzabili.
 window.FRASES = [
   "Voglio vedere come arrivi te alla mia età poi",
-  "Il casco del maestro di sci deve essere BIANCO",
   "Ma ce t' pinz ca so' d' la montagna?",
   "La fess d' mammt", 
   "trimon'", 
