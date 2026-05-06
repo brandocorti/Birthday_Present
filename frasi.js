@@ -12,5 +12,9 @@ window.FRASES = [
   "Avada kemmamt'",
   "Auguri a chi ci stipendiaaa, ti vogliamo bene <3",
   "Telemarkkkkkkk",
-  "Ormai non contiamo più quanti anni hai, diciamo solo tanti"
+  "Ormai non contiamo più quanti anni hai, diciamo solo tanti",
+  "Ho fame... e quando ho fame divento pericoloso",
+  "il mio piano è semplice: improvvisare",
+  "Io non sono piccolo, sono concentrato!"
+
 ];
