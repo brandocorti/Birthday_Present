@@ -1,7 +1,54 @@
 const MEDIA_FILES = [
-  "foto1.jpg",
-  "foto2.png",
-  "video1.mp4"
+  "media-001.jpeg",
+  "media-002.jpg",
+  "media-003.mp4",
+  "media-004.jpg",
+  "media-005.jpg",
+  "media-006.jpg",
+  "media-007.jpg",
+  "media-008.jpg",
+  "media-009.mp4",
+  "media-010.mp4",
+  "media-011.jpg",
+  "media-012.jpeg",
+  "media-013.mp4",
+  "media-014.jpg",
+  "media-015.mp4",
+  "media-016.mp4",
+  "media-017.jpg",
+  "media-018.jpg",
+  "media-019.jpg",
+  "media-020.jpg",
+  "media-021.jpg",
+  "media-022.mov",
+  "media-023.jpg",
+  "media-024.jpg",
+  "media-025.mov",
+  "media-026.jpg",
+  "media-027.jpg",
+  "media-028.mov",
+  "media-029.jpeg",
+  "media-030.jpg",
+  "media-031.jpg",
+  "media-032.jpg",
+  "media-033.jpg",
+  "media-034.jpg",
+  "media-035.jpg",
+  "media-036.jpg",
+  "media-037.jpg",
+  "media-038.jpg",
+  "media-039.jpg",
+  "media-040.jpg",
+  "media-041.jpeg",
+  "media-042.mov",
+  "media-043.jpeg",
+  "media-044.mov",
+  "media-045.jpg",
+  "media-046.jpeg",
+  "media-047.jpeg",
+  "media-048.mov",
+  "media-049.mov",
+  "media-050.jpg"
 ];
 
 const IMAGE_EXTENSIONS = [".jpg", ".jpeg", ".png", ".webp", ".gif"];
@@ -35,7 +82,7 @@ function getFileType(fileName) {
 
 function renderMedia(fileName) {
   const mediaType = getFileType(fileName);
-  const path = `./assets/${fileName}`;
+  const path = `./assets/foto/${fileName}`;
 
   mediaContainer.innerHTML = "";
 
@@ -65,7 +112,7 @@ function renderMedia(fileName) {
 
 function preloadMedia(fileName) {
   const mediaType = getFileType(fileName);
-  const path = `./assets/${fileName}`;
+  const path = `./assets/foto/${fileName}`;
   if (mediaType === "image") {
     const preload = new Image();
     preload.src = path;
